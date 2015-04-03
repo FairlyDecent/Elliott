@@ -1,11 +1,11 @@
 #include "src/graphics/window.h"
 
-//TODO: Episode 2 Sparky game engine
-
 int main()
 {
 	using namespace elliott;
 	using namespace graphics;
+	
+	std::cout << "Elliot Game Engine\n" << std::endl;
 
 	Window window("Elliott", 960, 540);
 	glClearColor(0.2f, 0.3f, 0.8f, 1.0f);
