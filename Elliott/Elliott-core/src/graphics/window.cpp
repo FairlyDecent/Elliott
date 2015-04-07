@@ -55,7 +55,7 @@ namespace elliott { namespace graphics {
 			return false;
 		}
 
-		std::cout << "OpenGL " << glGetString(GL_VERSION) << std::endl;
+		std::cout << "OpenGL " << glGetString(GL_VERSION) << std::endl << std::endl;
 
 		return true;
 	}
