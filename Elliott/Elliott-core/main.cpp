@@ -1,6 +1,6 @@
 #include "src/graphics/window.h"
 #include "src/graphics/shader.h"
-#include "src\maths\maths.h"
+#include "src/maths/maths.h"
 
 int main()
 {

@@ -16,7 +16,7 @@ namespace elliott {
 			unsigned long length = ftell(file);
 			char* data = new char[length + 1];
 
-			// Set weird stuff to 0 so there's is no weird chars in the string
+			// Set weird stuff to 0 so there's no weird chars in the string
 			memset(data, 0, length + 1);
 
 			fseek(file, 0, SEEK_SET);
