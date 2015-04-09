@@ -1,15 +1,16 @@
-﻿Build started 09/04/2015 1:56:34 AM.
+﻿Build started 09/04/2015 11:59:31 AM.
      1>Project "E:\Programmation\C++\Elliott\Elliott\Elliott-core\Elliott-core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          E:\Programmes\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\\" /Fd"E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
      1>e:\programmation\c++\elliott\elliott\elliott-core\src\maths\maths_func.h(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
-     1>e:\programmation\c++\elliott\elliott\elliott-core\main.cpp(100): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>e:\programmation\c++\elliott\elliott\elliott-core\main.cpp(42): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
        Link:
          E:\Programmes\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Programmation\C++\Elliott\Elliott\bin\Debug\Elliott-core.exe" /INCREMENTAL /NOLOGO glew32s.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Programmation\C++\Elliott\Elliott\bin\Debug\Elliott-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Programmation\C++\Elliott\Elliott\bin\Debug\Elliott-core.lib" /MACHINE:X86 E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\main.obj
          E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\buffer.obj
          E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\indexbuffer.obj
          E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\vertexarray.obj
+         E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\simple2drenderer.obj
          E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\shader.obj
          E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\window.obj
          E:\Programmation\C++\Elliott\Elliott\bin\Debug\Intermediates\mat4.obj
@@ -21,4 +22,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.11
+Time Elapsed 00:00:00.55
